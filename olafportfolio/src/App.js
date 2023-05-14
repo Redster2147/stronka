@@ -9,17 +9,13 @@ import About from "./pages/About";
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Header />
-        <Routes>
-          <Route path="/" element=<Home /> />
-          <Route path="/experience" element=<Experience /> />
-          <Route path="/portfolio" element=<Portfolio /> />
-          <Route path="/contact" element=<Contact /> />
-          <Route path="/about" element=<About /> />
-        </Routes>
-      </Router>
+    <div className="flex flex-col justify-between h-screen">
+      <Header />
+      <Home />
+      <About />
+      <Experience />
+      <Portfolio />
+      <Contact />
     </div>
   );
 }
