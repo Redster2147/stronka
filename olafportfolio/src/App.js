@@ -8,7 +8,9 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      <Dashboard />
+      <div className="text-white">
+        <Dashboard />
+      </div>
     </React.Fragment>
   );
 }

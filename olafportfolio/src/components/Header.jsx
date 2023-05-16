@@ -1,7 +1,7 @@
 import { Link, animateScroll as scroll } from "react-scroll";
 function Header() {
   return (
-    <nav className="navbar mb-12 shadow-lg bg-neutral text-neutral-content fixed ">
+    <nav className="navbar mb-12 shadow-lg bg-black text-neutral-content fixed ">
       <div className="container mx-auto ">
         <div className="flex-none px-2 mx-2">
           <div className="text-lg text-white font-bold align-middle">
