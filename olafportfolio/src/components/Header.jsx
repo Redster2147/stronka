@@ -1,13 +1,15 @@
 import { Link, animateScroll as scroll } from "react-scroll";
 function Header() {
   return (
-    <nav className="navbar mb-12 shadow-lg bg-neutral text-neutral-content">
-      <div className="container mx-auto">
+    <nav className="navbar mb-12 shadow-lg bg-neutral text-neutral-content fixed ">
+      <div className="container mx-auto ">
         <div className="flex-none px-2 mx-2">
-          <div className="text-lg font-bold align-middle">Olaf Skalski</div>
+          <div className="text-lg text-white font-bold align-middle">
+            Olaf Skalski
+          </div>
         </div>
         <div className="flex-1 px-2 mx-2">
-          <div className=" flex justify-end">
+          <div className=" flex justify-end text-white">
             <Link
               activeClass="active"
               to="Home"
